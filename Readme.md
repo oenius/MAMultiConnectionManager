@@ -8,19 +8,15 @@ However this repo, will also provide the neccessory interface in chat app.
 
 ```
 
-// new manager
+    // new manager
     self.manager = [[MAMultiConnectionManager alloc]initWithIdentifier:@"peanuts"];
+    
+    // handle receive message block
+    [self.manager.didRecivedMessage = ^(NSString *msg){
+    }];
 
-// handle receive message block
-
-  self.manager.didRecivedMessage = ^(NSString *msg)
-    {
-    }
-
-// send message
-
+    // send message
     [self.manager sendMessage:text completion:^(bool success) {
-
     }];
 
 ```
