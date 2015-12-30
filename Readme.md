@@ -6,7 +6,7 @@ However this repo, will also provide the neccessory interface in chat app.
 
 ###How to use
 
-'''
+```
 
 // new manager
     self.manager = [[MAMultiConnectionManager alloc]initWithIdentifier:@"peanuts"];
@@ -23,4 +23,4 @@ However this repo, will also provide the neccessory interface in chat app.
 
     }];
 
-'''
+```
