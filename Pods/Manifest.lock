@@ -1,0 +1,19 @@
+PODS:
+  - BabyBluetooth (0.5.0)
+  - DTBonjour (1.1.2)
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+
+DEPENDENCIES:
+  - BabyBluetooth
+  - DTBonjour (~> 1.1.1)
+  - JSQMessagesViewController (~> 7.2.0)
+
+SPEC CHECKSUMS:
+  BabyBluetooth: dae3d3edc48d13939deebd457bb57d35f64dae19
+  DTBonjour: 4ba65279c1abe7a7d0173d4ffe436b2abec19101
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+
+COCOAPODS: 0.39.0

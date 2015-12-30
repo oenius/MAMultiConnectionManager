@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7D37641C2A34DF0056D234 /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D37631C2A34DF0056D234 /* MessageController.m */; };
+		1A8184421C2A2D3A008A8804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8184411C2A2D3A008A8804 /* main.m */; };
+		1A8184451C2A2D3A008A8804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8184441C2A2D3A008A8804 /* AppDelegate.m */; };
+		1A8184481C2A2D3A008A8804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8184471C2A2D3A008A8804 /* ViewController.m */; };
+		1A81844B1C2A2D3A008A8804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8184491C2A2D3A008A8804 /* Main.storyboard */; };
+		1A81844D1C2A2D3A008A8804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A81844C1C2A2D3A008A8804 /* Assets.xcassets */; };
+		1A8184501C2A2D3A008A8804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A81844E1C2A2D3A008A8804 /* LaunchScreen.storyboard */; };
+		1A81845B1C2A2D3A008A8804 /* BonjourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A81845A1C2A2D3A008A8804 /* BonjourTests.m */; };
+		1A8184661C2A2D3B008A8804 /* BonjourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8184651C2A2D3B008A8804 /* BonjourUITests.m */; };
+		1AE1AA7C1C3291B500A3A41E /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE1AA7B1C3291B500A3A41E /* MultipeerConnectivity.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1AE1AA811C3379FF00A3A41E /* MAMultiConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1AA801C3379FF00A3A41E /* MAMultiConnectionManager.m */; };
+		D4C67634C1CB64F31A9C9230 /* libPods-Bonjour.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3910CFF4DD047E91F3C14D14 /* libPods-Bonjour.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A8184571C2A2D3A008A8804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8184351C2A2D3A008A8804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A81843C1C2A2D3A008A8804;
+			remoteInfo = Bonjour;
+		};
+		1A8184621C2A2D3B008A8804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8184351C2A2D3A008A8804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A81843C1C2A2D3A008A8804;
+			remoteInfo = Bonjour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A7D37621C2A34DF0056D234 /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
+		1A7D37631C2A34DF0056D234 /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
+		1A81843D1C2A2D3A008A8804 /* Bonjour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonjour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8184411C2A2D3A008A8804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A8184431C2A2D3A008A8804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A8184441C2A2D3A008A8804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A8184461C2A2D3A008A8804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A8184471C2A2D3A008A8804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A81844A1C2A2D3A008A8804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A81844C1C2A2D3A008A8804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A81844F1C2A2D3A008A8804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A8184511C2A2D3A008A8804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8184561C2A2D3A008A8804 /* BonjourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A81845A1C2A2D3A008A8804 /* BonjourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonjourTests.m; sourceTree = "<group>"; };
+		1A81845C1C2A2D3A008A8804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8184611C2A2D3B008A8804 /* BonjourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8184651C2A2D3B008A8804 /* BonjourUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonjourUITests.m; sourceTree = "<group>"; };
+		1A8184671C2A2D3B008A8804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE1AA7B1C3291B500A3A41E /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		1AE1AA7F1C3379FF00A3A41E /* MAMultiConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMultiConnectionManager.h; sourceTree = "<group>"; };
+		1AE1AA801C3379FF00A3A41E /* MAMultiConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMultiConnectionManager.m; sourceTree = "<group>"; };
+		3910CFF4DD047E91F3C14D14 /* libPods-Bonjour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bonjour.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C51C0EB22DF4335B6A06892 /* Pods-Bonjour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonjour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bonjour/Pods-Bonjour.debug.xcconfig"; sourceTree = "<group>"; };
+		B69C5E92ECEE5B907CD7017D /* Pods-Bonjour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonjour.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bonjour/Pods-Bonjour.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A81843A1C2A2D3A008A8804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE1AA7C1C3291B500A3A41E /* MultipeerConnectivity.framework in Frameworks */,
+				D4C67634C1CB64F31A9C9230 /* libPods-Bonjour.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8184531C2A2D3A008A8804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81845E1C2A2D3B008A8804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8184341C2A2D3A008A8804 = {
+			isa = PBXGroup;
+			children = (
+				1A81843F1C2A2D3A008A8804 /* Bonjour */,
+				1A8184591C2A2D3A008A8804 /* BonjourTests */,
+				1A8184641C2A2D3B008A8804 /* BonjourUITests */,
+				1A81843E1C2A2D3A008A8804 /* Products */,
+				F41FDCDFC2D495EFD1AF324D /* Pods */,
+				EDF5BFF5C374E3BB3C982AC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A81843E1C2A2D3A008A8804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A81843D1C2A2D3A008A8804 /* Bonjour.app */,
+				1A8184561C2A2D3A008A8804 /* BonjourTests.xctest */,
+				1A8184611C2A2D3B008A8804 /* BonjourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A81843F1C2A2D3A008A8804 /* Bonjour */ = {
+			isa = PBXGroup;
+			children = (
+				1A8184431C2A2D3A008A8804 /* AppDelegate.h */,
+				1A8184441C2A2D3A008A8804 /* AppDelegate.m */,
+				1A8184461C2A2D3A008A8804 /* ViewController.h */,
+				1A8184471C2A2D3A008A8804 /* ViewController.m */,
+				1A8184491C2A2D3A008A8804 /* Main.storyboard */,
+				1A81844C1C2A2D3A008A8804 /* Assets.xcassets */,
+				1A81844E1C2A2D3A008A8804 /* LaunchScreen.storyboard */,
+				1A8184511C2A2D3A008A8804 /* Info.plist */,
+				1A8184401C2A2D3A008A8804 /* Supporting Files */,
+				1A7D37621C2A34DF0056D234 /* MessageController.h */,
+				1A7D37631C2A34DF0056D234 /* MessageController.m */,
+				1AE1AA7F1C3379FF00A3A41E /* MAMultiConnectionManager.h */,
+				1AE1AA801C3379FF00A3A41E /* MAMultiConnectionManager.m */,
+			);
+			path = Bonjour;
+			sourceTree = "<group>";
+		};
+		1A8184401C2A2D3A008A8804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A8184411C2A2D3A008A8804 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A8184591C2A2D3A008A8804 /* BonjourTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A81845A1C2A2D3A008A8804 /* BonjourTests.m */,
+				1A81845C1C2A2D3A008A8804 /* Info.plist */,
+			);
+			path = BonjourTests;
+			sourceTree = "<group>";
+		};
+		1A8184641C2A2D3B008A8804 /* BonjourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8184651C2A2D3B008A8804 /* BonjourUITests.m */,
+				1A8184671C2A2D3B008A8804 /* Info.plist */,
+			);
+			path = BonjourUITests;
+			sourceTree = "<group>";
+		};
+		EDF5BFF5C374E3BB3C982AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE1AA7B1C3291B500A3A41E /* MultipeerConnectivity.framework */,
+				3910CFF4DD047E91F3C14D14 /* libPods-Bonjour.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41FDCDFC2D495EFD1AF324D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C51C0EB22DF4335B6A06892 /* Pods-Bonjour.debug.xcconfig */,
+				B69C5E92ECEE5B907CD7017D /* Pods-Bonjour.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A81843C1C2A2D3A008A8804 /* Bonjour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A81846A1C2A2D3B008A8804 /* Build configuration list for PBXNativeTarget "Bonjour" */;
+			buildPhases = (
+				7EEF1C16218ECF7F83F157D3 /* Check Pods Manifest.lock */,
+				1A8184391C2A2D3A008A8804 /* Sources */,
+				1A81843A1C2A2D3A008A8804 /* Frameworks */,
+				1A81843B1C2A2D3A008A8804 /* Resources */,
+				260D5377E1DBB63536DF4917 /* Embed Pods Frameworks */,
+				133FB6035A07BDA70F326D79 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bonjour;
+			productName = Bonjour;
+			productReference = 1A81843D1C2A2D3A008A8804 /* Bonjour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A8184551C2A2D3A008A8804 /* BonjourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A81846D1C2A2D3B008A8804 /* Build configuration list for PBXNativeTarget "BonjourTests" */;
+			buildPhases = (
+				1A8184521C2A2D3A008A8804 /* Sources */,
+				1A8184531C2A2D3A008A8804 /* Frameworks */,
+				1A8184541C2A2D3A008A8804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8184581C2A2D3A008A8804 /* PBXTargetDependency */,
+			);
+			name = BonjourTests;
+			productName = BonjourTests;
+			productReference = 1A8184561C2A2D3A008A8804 /* BonjourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A8184601C2A2D3B008A8804 /* BonjourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8184701C2A2D3B008A8804 /* Build configuration list for PBXNativeTarget "BonjourUITests" */;
+			buildPhases = (
+				1A81845D1C2A2D3B008A8804 /* Sources */,
+				1A81845E1C2A2D3B008A8804 /* Frameworks */,
+				1A81845F1C2A2D3B008A8804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8184631C2A2D3B008A8804 /* PBXTargetDependency */,
+			);
+			name = BonjourUITests;
+			productName = BonjourUITests;
+			productReference = 1A8184611C2A2D3B008A8804 /* BonjourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8184351C2A2D3A008A8804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = oenius;
+				TargetAttributes = {
+					1A81843C1C2A2D3A008A8804 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					1A8184551C2A2D3A008A8804 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1A81843C1C2A2D3A008A8804;
+					};
+					1A8184601C2A2D3B008A8804 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1A81843C1C2A2D3A008A8804;
+					};
+				};
+			};
+			buildConfigurationList = 1A8184381C2A2D3A008A8804 /* Build configuration list for PBXProject "Bonjour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A8184341C2A2D3A008A8804;
+			productRefGroup = 1A81843E1C2A2D3A008A8804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A81843C1C2A2D3A008A8804 /* Bonjour */,
+				1A8184551C2A2D3A008A8804 /* BonjourTests */,
+				1A8184601C2A2D3B008A8804 /* BonjourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A81843B1C2A2D3A008A8804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8184501C2A2D3A008A8804 /* LaunchScreen.storyboard in Resources */,
+				1A81844D1C2A2D3A008A8804 /* Assets.xcassets in Resources */,
+				1A81844B1C2A2D3A008A8804 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8184541C2A2D3A008A8804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81845F1C2A2D3B008A8804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133FB6035A07BDA70F326D79 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bonjour/Pods-Bonjour-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		260D5377E1DBB63536DF4917 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bonjour/Pods-Bonjour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEF1C16218ECF7F83F157D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8184391C2A2D3A008A8804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE1AA811C3379FF00A3A41E /* MAMultiConnectionManager.m in Sources */,
+				1A8184481C2A2D3A008A8804 /* ViewController.m in Sources */,
+				1A8184451C2A2D3A008A8804 /* AppDelegate.m in Sources */,
+				1A8184421C2A2D3A008A8804 /* main.m in Sources */,
+				1A7D37641C2A34DF0056D234 /* MessageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8184521C2A2D3A008A8804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A81845B1C2A2D3A008A8804 /* BonjourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81845D1C2A2D3B008A8804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8184661C2A2D3B008A8804 /* BonjourUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A8184581C2A2D3A008A8804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A81843C1C2A2D3A008A8804 /* Bonjour */;
+			targetProxy = 1A8184571C2A2D3A008A8804 /* PBXContainerItemProxy */;
+		};
+		1A8184631C2A2D3B008A8804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A81843C1C2A2D3A008A8804 /* Bonjour */;
+			targetProxy = 1A8184621C2A2D3B008A8804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A8184491C2A2D3A008A8804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A81844A1C2A2D3A008A8804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A81844E1C2A2D3A008A8804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A81844F1C2A2D3A008A8804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A8184681C2A2D3B008A8804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A8184691C2A2D3B008A8804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A81846B1C2A2D3B008A8804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C51C0EB22DF4335B6A06892 /* Pods-Bonjour.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bonjour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenius.jou.Bonjour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A81846C1C2A2D3B008A8804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69C5E92ECEE5B907CD7017D /* Pods-Bonjour.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bonjour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenius.jou.Bonjour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A81846E1C2A2D3B008A8804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BonjourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenius.jou.BonjourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonjour.app/Bonjour";
+			};
+			name = Debug;
+		};
+		1A81846F1C2A2D3B008A8804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BonjourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenius.jou.BonjourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonjour.app/Bonjour";
+			};
+			name = Release;
+		};
+		1A8184711C2A2D3B008A8804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BonjourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenius.jou.BonjourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bonjour;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A8184721C2A2D3B008A8804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BonjourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenius.jou.BonjourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bonjour;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A8184381C2A2D3A008A8804 /* Build configuration list for PBXProject "Bonjour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8184681C2A2D3B008A8804 /* Debug */,
+				1A8184691C2A2D3B008A8804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A81846A1C2A2D3B008A8804 /* Build configuration list for PBXNativeTarget "Bonjour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A81846B1C2A2D3B008A8804 /* Debug */,
+				1A81846C1C2A2D3B008A8804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A81846D1C2A2D3B008A8804 /* Build configuration list for PBXNativeTarget "BonjourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A81846E1C2A2D3B008A8804 /* Debug */,
+				1A81846F1C2A2D3B008A8804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8184701C2A2D3B008A8804 /* Build configuration list for PBXNativeTarget "BonjourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8184711C2A2D3B008A8804 /* Debug */,
+				1A8184721C2A2D3B008A8804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A8184351C2A2D3A008A8804 /* Project object */;
+}
